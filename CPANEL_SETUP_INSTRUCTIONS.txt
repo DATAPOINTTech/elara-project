@@ -1,0 +1,85 @@
+================================================================================
+ELARA BEAUTÉ STUDIO - CPANEL EXTRACTION & ONLINE HOSTING GUIDE
+Designed, Developed and Hosted By: DATAPOINT Technologies
+================================================================================
+
+This ZIP package contains the 100% complete, production-ready ELARA Beauté Studio
+application with pre-packaged vendor dependencies, Apache .htaccess rewrites,
+security rules, and full web portal + POS management system.
+
+--------------------------------------------------------------------------------
+QUICK 3-STEP CPANEL SETUP (1-CLICK UPLOAD & EXTRACT)
+--------------------------------------------------------------------------------
+
+STEP 1: UPLOAD & EXTRACT
+1. Log in to your cPanel hosting account.
+2. Go to: Files > File Manager.
+3. Open the "public_html" directory (or your addon domain's root folder).
+4. Click "Upload" at the top and select this ZIP file:
+   "elara-studio-cpanel-ready.zip"
+5. Once uploaded (100% green bar), return to File Manager.
+6. Right-click the uploaded ZIP file and click "Extract" -> Extract Files.
+   (Ensure all hidden files like .env and .htaccess are visible by clicking
+   "Settings" in the top-right of cPanel File Manager and ticking
+   "Show Hidden Files (dotfiles)").
+
+STEP 2: PHP VERSION & EXTENSIONS
+1. In cPanel, navigate to: Software > "MultiPHP Manager" (or "Select PHP Version").
+2. Select your domain and set PHP version to:
+   PHP 8.2 or PHP 8.3 (Recommended: PHP 8.3).
+3. Under "PHP Extensions" or "PHP PEAR Packages", ensure the following are enabled:
+   - curl
+   - mbstring
+   - openssl
+   - fileinfo
+   - gd (required for image processing & PDF invoices)
+   - dom / xml
+   - zip
+
+STEP 3: VERIFY .ENV SETTINGS
+1. In cPanel File Manager, locate the ".env" file in public_html.
+2. Right-click ".env" and click "Edit".
+3. Update "APP_URL" to your live domain:
+   APP_URL="https://elara.datapointtechnology.com"
+4. Save Changes.
+
+--------------------------------------------------------------------------------
+DIRECTORY PERMISSIONS (CHMOD)
+--------------------------------------------------------------------------------
+Ensure write permissions (755 or 775) on runtime directories:
+- storage/
+- storage/logs/
+- storage/cache/
+- storage/invoices/
+- public/storage/invoices/
+
+--------------------------------------------------------------------------------
+KEY PORTAL & SYSTEM URLS
+--------------------------------------------------------------------------------
+- Customer Web Portal:      https://elara.datapointtechnology.com/
+- Point of Sale (POS):      https://elara.datapointtechnology.com/pos
+- Staff & Admin Login:      https://elara.datapointtechnology.com/login
+- Executive Dashboard:      https://elara.datapointtechnology.com/dashboard
+- Services Catalog:         https://elara.datapointtechnology.com/services
+- Inventory & Stock:        https://elara.datapointtechnology.com/inventory
+- Invoices & Billing:       https://elara.datapointtechnology.com/invoices
+- Business Reports:         https://elara.datapointtechnology.com/reports
+
+--------------------------------------------------------------------------------
+DEFAULT STAFF & ADMIN CREDENTIALS
+--------------------------------------------------------------------------------
+1. Admin Account (Owner / Master Access):
+   - Email:    admin@elarabeaute.pk
+   - Password: admin123password
+
+2. Cashier Account (POS Sales & Receipts):
+   - Email:    cashier@elarabeaute.pk
+   - Password: cashier123password
+
+--------------------------------------------------------------------------------
+SUPPORT & ASSISTANCE
+--------------------------------------------------------------------------------
+Designed, Developed and Hosted By : DATAPOINT Technologies
+Concierge WhatsApp: 0335 2004959
+================================================================================
+

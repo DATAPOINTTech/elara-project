@@ -1,0 +1,55 @@
+name: Deploy ELARA Studio to cPanel
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    name: Build, Test & Deploy to cPanel
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup PHP 8.3
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: mbstring, json, curl, gd, zip, dom
+          coverage: none
+
+      - name: Validate Composer & Dependencies
+        run: |
+          composer validate --strict
+          if [ ! -d "vendor" ]; then
+            composer install --no-dev --optimize-autoloader
+          fi
+
+      - name: Run Test Suite
+        run: php test_runner.php
+
+      - name: Prepare Deployment Artifacts
+        run: |
+          mkdir -p storage/logs storage/cache storage/invoices public/storage/invoices
+          touch storage/logs/.gitkeep storage/cache/.gitkeep storage/invoices/.gitkeep public/storage/invoices/.gitkeep
+          chmod -R 775 storage public/storage
+
+      # Option A: Deploy via FTP/FTPS (Set CPANEL_FTP_SERVER, CPANEL_FTP_USERNAME, CPANEL_FTP_PASSWORD in GitHub Secrets)
+      - name: Deploy via FTP to cPanel public_html
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        if: ${{ env.CPANEL_FTP_SERVER != '' }}
+        with:
+          server: ${{ secrets.CPANEL_FTP_SERVER }}
+          username: ${{ secrets.CPANEL_FTP_USERNAME }}
+          password: ${{ secrets.CPANEL_FTP_PASSWORD }}
+          server-dir: public_html/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/tests/**
+            test_runner.php
+

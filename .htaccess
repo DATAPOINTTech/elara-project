@@ -1,0 +1,26 @@
+# ==============================================================================
+# ELARA BEAUTÉ STUDIO - UNIVERSAL CPANEL APACHE CONFIGURATION
+# Designed, Developed and Hosted By: DATAPOINT Technologies
+# ==============================================================================
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Protect sensitive credentials and internal files
+    <FilesMatch "(^\.|\.(env|json|lock|sql|log|md|yml|yaml|bak)$|serviceAccountKey\.json)">
+        <IfModule mod_authz_core.c>
+            Require all denied
+        </IfModule>
+        <IfModule !mod_authz_core.c>
+            Order allow,deny
+            Deny from all
+        </IfModule>
+    </FilesMatch>
+
+    # Forward root URL to public/
+    RewriteRule ^$ public/ [L]
+
+    # Forward all other requests into public/ unless already pointing to public/
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

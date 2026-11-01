@@ -1,0 +1,31 @@
+---
+# ==============================================================================
+# ELARA BEAUTÉ STUDIO - CPANEL DEPLOYMENT CONFIGURATION
+# Designed, Developed and Hosted By: DATAPOINT Technologies
+# Domain: elara.datapointtechnology.com
+# ==============================================================================
+deployment:
+  tasks:
+    # Target deployment path for subdomain elara.datapointtechnology.com
+    - export DEPLOYPATH=/home/$USER/elara.datapointtechnology.com
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/mkdir -p $DEPLOYPATH/storage/logs
+    - /bin/mkdir -p $DEPLOYPATH/storage/cache
+    - /bin/mkdir -p $DEPLOYPATH/storage/invoices
+    - /bin/mkdir -p $DEPLOYPATH/public/storage/invoices
+    # Copy all application directories & files
+    - /bin/cp -R config $DEPLOYPATH/
+    - /bin/cp -R public $DEPLOYPATH/
+    - /bin/cp -R src $DEPLOYPATH/
+    - /bin/cp -R storage $DEPLOYPATH/
+    - /bin/cp -R vendor $DEPLOYPATH/
+    - /bin/cp .env $DEPLOYPATH/.env
+    - /bin/cp .htaccess $DEPLOYPATH/.htaccess
+    - /bin/cp index.php $DEPLOYPATH/index.php
+    - /bin/cp test.php $DEPLOYPATH/test.php
+    - /bin/cp serviceAccountKey.json $DEPLOYPATH/serviceAccountKey.json
+    # Set proper permissions for cPanel Apache
+    - /bin/chmod 755 $DEPLOYPATH
+    - /bin/chmod -R 755 $DEPLOYPATH/public
+    - /bin/chmod -R 775 $DEPLOYPATH/storage
+    - /bin/chmod -R 775 $DEPLOYPATH/public/storage

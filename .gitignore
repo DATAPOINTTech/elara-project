@@ -1,0 +1,7 @@
+/vendor/
+.env
+/storage/firestore_db.json
+/public/storage/invoices/*.pdf
+!/public/storage/invoices/.gitkeep
+*.zip
+
