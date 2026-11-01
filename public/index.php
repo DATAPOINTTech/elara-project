@@ -1,6 +1,4 @@
-﻿<?php
-
-declare(strict_types=1);
+<?php
 
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
@@ -13,7 +11,7 @@ set_exception_handler(function (\Throwable $e) {
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Startup Notice - ELARA BeautÃ© Studio</title>
+        <title>Startup Notice - ELARA Beauté Studio</title>
         <style>
             body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #faf7f2; color: #1c1917; padding: 40px 20px; }
             .box { max-width: 700px; margin: 0 auto; background: #fff; padding: 32px; border-radius: 20px; border: 2px solid #fecaca; box-shadow: 0 10px 25px rgba(0,0,0,0.06); }

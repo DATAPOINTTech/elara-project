@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $currentPage = 'portal';
 $pageTitle = 'ELARA BEAUTÉ STUDIO | By Elia & Sehar - Haute Beauté & Luxury Day Spa';
 $currency = $appConfig['parlor']['currency_symbol'];

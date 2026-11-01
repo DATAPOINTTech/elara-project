@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 /**
  * ELARA Beauté Studio - Root cPanel Proxy & Platform Check
  */
