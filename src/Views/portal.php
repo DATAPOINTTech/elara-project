@@ -332,7 +332,7 @@ $parlor = $appConfig['parlor'];
                 <div class="lg:col-span-6 relative">
                     <div class="rounded-3xl overflow-hidden border border-brand-200 shadow-xl relative group">
                         <img 
-                            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1600&q=85" 
+                            src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=85" 
                             alt="Elia & Sehar Studio Atmosphere" 
                             class="w-full h-[480px] object-cover group-hover:scale-105 transition duration-700"
                         >
@@ -672,7 +672,7 @@ $parlor = $appConfig['parlor'];
                 <div class="group bg-white rounded-3xl overflow-hidden border border-brand-200 hover:border-brand-400 transition-all duration-300 shadow-sm hover:shadow-xl flex flex-col">
                     <div class="relative h-72 overflow-hidden cursor-pointer" onclick="openInstagramReel('https://www.instagram.com/elarabeautestudio/')">
                         <img 
-                            src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1200&q=85" 
+                            src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1200&q=85" 
                             alt="Daylight Bridal Suites & Studio Tour" 
                             class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                         >
@@ -767,7 +767,7 @@ $parlor = $appConfig['parlor'];
                         </div>
                     </a>
                     <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative aspect-square rounded-2xl overflow-hidden border border-brand-200 shadow-2xs">
-                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=85" alt="Daylight Vanity Setup" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85" alt="Daylight Vanity Setup" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                         <div class="absolute inset-0 bg-charcoal-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white">
                             <i class="fa-brands fa-instagram text-2xl"></i>
                         </div>
@@ -958,7 +958,7 @@ $parlor = $appConfig['parlor'];
                 <!-- Service Card 1 -->
                 <div class="p-5 rounded-3xl bg-[#faf7f2] border border-brand-200 shadow-2xs space-y-3">
                     <div class="h-44 rounded-2xl overflow-hidden mb-3">
-                        <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1000&q=85" alt="Keratin Smoothing" class="w-full h-full object-cover">
+                        <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=1000&q=85" alt="Keratin Smoothing" class="w-full h-full object-cover">
                     </div>
                     <h3 class="font-bold text-sm text-charcoal-900">Brazilian Keratin Smoothing</h3>
                     <p class="text-xs text-charcoal-500">Formaldehyde-free intense silk smoothing lasting 4-6 months.</p>
@@ -968,7 +968,7 @@ $parlor = $appConfig['parlor'];
                 <!-- Service Card 2 -->
                 <div class="p-5 rounded-3xl bg-[#faf7f2] border border-brand-200 shadow-2xs space-y-3">
                     <div class="h-44 rounded-2xl overflow-hidden mb-3">
-                        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85" alt="Balayage & Gloss" class="w-full h-full object-cover">
+                        <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1000&q=85" alt="Balayage & Gloss" class="w-full h-full object-cover">
                     </div>
                     <h3 class="font-bold text-sm text-charcoal-900">Balayage & Bespoke Gloss</h3>
                     <p class="text-xs text-charcoal-500">Seamless sun-kissed blending with Olaplex bond reinforcement.</p>
@@ -978,7 +978,7 @@ $parlor = $appConfig['parlor'];
                 <!-- Service Card 3 -->
                 <div class="p-5 rounded-3xl bg-[#faf7f2] border border-brand-200 shadow-2xs space-y-3">
                     <div class="h-44 rounded-2xl overflow-hidden mb-3">
-                        <img src="https://images.unsplash.com/photo-1595475884562-073c30d45670?auto=format&fit=crop&w=1000&q=85" alt="Crown Cut & Blowdry" class="w-full h-full object-cover">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=85" alt="Crown Cut & Blowdry" class="w-full h-full object-cover">
                     </div>
                     <h3 class="font-bold text-sm text-charcoal-900">Crown Cut & Bouncy Blowdry</h3>
                     <p class="text-xs text-charcoal-500">Customized face-framing layer cut with scalp massage & blowout.</p>
@@ -988,7 +988,7 @@ $parlor = $appConfig['parlor'];
                 <!-- Service Card 4 -->
                 <div class="p-5 rounded-3xl bg-[#faf7f2] border border-brand-200 shadow-2xs space-y-3">
                     <div class="h-44 rounded-2xl overflow-hidden mb-3">
-                        <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=1000&q=85" alt="Nail Bar & Pedicure" class="w-full h-full object-cover">
+                        <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=1000&q=85" alt="Nail Bar & Pedicure" class="w-full h-full object-cover">
                     </div>
                     <h3 class="font-bold text-sm text-charcoal-900">Deluxe Velvet Manicure & Spa</h3>
                     <p class="text-xs text-charcoal-500">Rose foot soak, Russian cuticle care, and chip-free gel polish.</p>
@@ -1116,7 +1116,7 @@ $parlor = $appConfig['parlor'];
 
                 <!-- Insta Post 3 -->
                 <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative rounded-2xl overflow-hidden aspect-square border border-brand-400/20 shadow-md block">
-                    <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=85" alt="Balayage Transformation" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85" alt="Balayage Transformation" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center p-2 text-center text-white text-xs">
                         <i class="fa-brands fa-instagram text-2xl mb-1 text-pink-400"></i>
                         <span class="font-bold text-[11px]">Bespoke Balayage</span>
@@ -1129,7 +1129,7 @@ $parlor = $appConfig['parlor'];
 
                 <!-- Insta Post 4 -->
                 <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative rounded-2xl overflow-hidden aspect-square border border-brand-400/20 shadow-md block">
-                    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=85" alt="24K Gold Facial" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=85" alt="24K Gold Facial" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center p-2 text-center text-white text-xs">
                         <i class="fa-brands fa-instagram text-2xl mb-1 text-pink-400"></i>
                         <span class="font-bold text-[11px]">24K Gold Glow</span>
@@ -1149,7 +1149,7 @@ $parlor = $appConfig['parlor'];
 
                 <!-- Insta Post 6 -->
                 <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative rounded-2xl overflow-hidden aspect-square border border-brand-400/20 shadow-md block">
-                    <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=85" alt="Gel Nail Architecture" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=800&q=85" alt="Gel Nail Architecture" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center p-2 text-center text-white text-xs">
                         <i class="fa-brands fa-instagram text-2xl mb-1 text-pink-400"></i>
                         <span class="font-bold text-[11px]">Velvet Gel Nails</span>
