@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $currentPage = 'portal';
 $pageTitle = 'ELARA BEAUTÉ STUDIO | By Elia & Sehar - Haute Beauté & Luxury Day Spa';
 $currency = $appConfig['parlor']['currency_symbol'];
@@ -236,7 +236,7 @@ $parlor = $appConfig['parlor'];
                         <!-- Primary High-Res Pakistani Bride Portrait (Embroidered Lehenga, Dupatta & Glamour Makeup) -->
                         <div class="relative h-[440px] sm:h-[500px] overflow-hidden">
                             <img 
-                                src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=1000&q=80" 
+                                src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=1920&q=90" 
                                 alt="Asian Pakistani Bride Photoshoot - Scarlet Zari Lehenga & Royal Bridal Makeup by ELARA" 
                                 class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-700"
                             >
@@ -257,7 +257,7 @@ $parlor = $appConfig['parlor'];
                             <!-- Inset Macro Photo: Backstage Makeup Readiness & Eyes -->
                             <div class="absolute bottom-4 right-4 w-32 sm:w-36 aspect-square rounded-2xl overflow-hidden border-2 border-white shadow-2xl hidden sm:block group/inset hover:scale-110 transition duration-300">
                                 <img 
-                                    src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=600&q=80" 
+                                    src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=85" 
                                     alt="Bridal Makeup Readiness & Vanity Mirror Touchup" 
                                     class="w-full h-full object-cover"
                                 >
@@ -332,7 +332,7 @@ $parlor = $appConfig['parlor'];
                 <div class="lg:col-span-6 relative">
                     <div class="rounded-3xl overflow-hidden border border-brand-200 shadow-xl relative group">
                         <img 
-                            src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80" 
+                            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1600&q=85" 
                             alt="Elia & Sehar Studio Atmosphere" 
                             class="w-full h-[480px] object-cover group-hover:scale-105 transition duration-700"
                         >
@@ -435,7 +435,7 @@ $parlor = $appConfig['parlor'];
                 <div class="group bg-white rounded-3xl overflow-hidden border border-brand-200 hover:border-brand-400 transition-all duration-300 shadow-sm hover:shadow-xl flex flex-col">
                     <div class="relative h-72 overflow-hidden cursor-pointer" onclick="openInstagramReel('https://www.instagram.com/elarabeautestudio/')">
                         <img 
-                            src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=700&q=80" 
+                            src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=1200&q=85" 
                             alt="Pakistani Bridal Photoshoot BTS" 
                             class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                         >
@@ -484,7 +484,7 @@ $parlor = $appConfig['parlor'];
                 <div class="group bg-white rounded-3xl overflow-hidden border border-brand-200 hover:border-brand-400 transition-all duration-300 shadow-sm hover:shadow-xl flex flex-col">
                     <div class="relative h-72 overflow-hidden cursor-pointer" onclick="openInstagramReel('https://www.instagram.com/elarabeautestudio/')">
                         <img 
-                            src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=700&q=80" 
+                            src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1200&q=85" 
                             alt="Bridal Makeup Readiness & Vanity Prep" 
                             class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                         >
@@ -531,7 +531,7 @@ $parlor = $appConfig['parlor'];
                 <div class="group bg-white rounded-3xl overflow-hidden border border-brand-200 hover:border-brand-400 transition-all duration-300 shadow-sm hover:shadow-xl flex flex-col">
                     <div class="relative h-72 overflow-hidden cursor-pointer" onclick="openInstagramReel('https://www.instagram.com/elarabeautestudio/')">
                         <img 
-                            src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=700&q=80" 
+                            src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=85" 
                             alt="Artisanal Henna Brewing" 
                             class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                         >
@@ -578,7 +578,7 @@ $parlor = $appConfig['parlor'];
                 <div class="group bg-white rounded-3xl overflow-hidden border border-brand-200 hover:border-brand-400 transition-all duration-300 shadow-sm hover:shadow-xl flex flex-col">
                     <div class="relative h-72 overflow-hidden cursor-pointer" onclick="openInstagramReel('https://www.instagram.com/elarabeautestudio/')">
                         <img 
-                            src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=700&q=80" 
+                            src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1200&q=85" 
                             alt="Velvet Dupatta Draping & Matha Patti" 
                             class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                         >
@@ -625,7 +625,7 @@ $parlor = $appConfig['parlor'];
                 <div class="group bg-white rounded-3xl overflow-hidden border border-brand-200 hover:border-brand-400 transition-all duration-300 shadow-sm hover:shadow-xl flex flex-col">
                     <div class="relative h-72 overflow-hidden cursor-pointer" onclick="openInstagramReel('https://www.instagram.com/elarabeautestudio/')">
                         <img 
-                            src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=700&q=80" 
+                            src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=1200&q=85" 
                             alt="Hair Artistry & French Balayage" 
                             class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                         >
@@ -672,7 +672,7 @@ $parlor = $appConfig['parlor'];
                 <div class="group bg-white rounded-3xl overflow-hidden border border-brand-200 hover:border-brand-400 transition-all duration-300 shadow-sm hover:shadow-xl flex flex-col">
                     <div class="relative h-72 overflow-hidden cursor-pointer" onclick="openInstagramReel('https://www.instagram.com/elarabeautestudio/')">
                         <img 
-                            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=700&q=80" 
+                            src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1200&q=85" 
                             alt="Daylight Bridal Suites & Studio Tour" 
                             class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                         >
@@ -737,37 +737,37 @@ $parlor = $appConfig['parlor'];
                 <!-- 6 Photo Cards -->
                 <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
                     <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative aspect-square rounded-2xl overflow-hidden border border-brand-200 shadow-2xs">
-                        <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=400&q=80" alt="Makeup Readiness BTS" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=85" alt="Makeup Readiness BTS" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                         <div class="absolute inset-0 bg-charcoal-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white">
                             <i class="fa-brands fa-instagram text-2xl"></i>
                         </div>
                     </a>
                     <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative aspect-square rounded-2xl overflow-hidden border border-brand-200 shadow-2xs">
-                        <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=400&q=80" alt="Pakistani Bridal Shoot" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=85" alt="Pakistani Bridal Shoot" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                         <div class="absolute inset-0 bg-charcoal-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white">
                             <i class="fa-brands fa-instagram text-2xl"></i>
                         </div>
                     </a>
                     <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative aspect-square rounded-2xl overflow-hidden border border-brand-200 shadow-2xs">
-                        <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=400&q=80" alt="Dupatta Draping & Matha Patti" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <img src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=800&q=85" alt="Dupatta Draping & Matha Patti" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                         <div class="absolute inset-0 bg-charcoal-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white">
                             <i class="fa-brands fa-instagram text-2xl"></i>
                         </div>
                     </a>
                     <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative aspect-square rounded-2xl overflow-hidden border border-brand-200 shadow-2xs">
-                        <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=400&q=80" alt="Bridal Hair & Balayage" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=800&q=85" alt="Bridal Hair & Balayage" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                         <div class="absolute inset-0 bg-charcoal-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white">
                             <i class="fa-brands fa-instagram text-2xl"></i>
                         </div>
                     </a>
                     <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative aspect-square rounded-2xl overflow-hidden border border-brand-200 shadow-2xs">
-                        <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=400&q=80" alt="Botanical Henna Brewing" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=85" alt="Botanical Henna Brewing" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                         <div class="absolute inset-0 bg-charcoal-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white">
                             <i class="fa-brands fa-instagram text-2xl"></i>
                         </div>
                     </a>
                     <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative aspect-square rounded-2xl overflow-hidden border border-brand-200 shadow-2xs">
-                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=400&q=80" alt="Daylight Vanity Setup" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=85" alt="Daylight Vanity Setup" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                         <div class="absolute inset-0 bg-charcoal-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white">
                             <i class="fa-brands fa-instagram text-2xl"></i>
                         </div>
@@ -797,7 +797,7 @@ $parlor = $appConfig['parlor'];
                 <div class="group rounded-3xl overflow-hidden border border-brand-200 bg-[#faf7f2] shadow-2xs hover:shadow-lg transition">
                     <div class="h-80 overflow-hidden relative">
                         <img 
-                            src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=600&q=80" 
+                            src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=1200&q=85" 
                             alt="Pakistani Barat Bridal Lehenga Glamour" 
                             class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                         >
@@ -823,7 +823,7 @@ $parlor = $appConfig['parlor'];
                 <div class="group rounded-3xl overflow-hidden border border-brand-200 bg-[#faf7f2] shadow-2xs hover:shadow-lg transition">
                     <div class="h-80 overflow-hidden relative">
                         <img 
-                            src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=600&q=80" 
+                            src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=85" 
                             alt="Walima Reception Glow" 
                             class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                         >
@@ -849,7 +849,7 @@ $parlor = $appConfig['parlor'];
                 <div class="group rounded-3xl overflow-hidden border border-brand-200 bg-[#faf7f2] shadow-2xs hover:shadow-lg transition">
                     <div class="h-80 overflow-hidden relative">
                         <img 
-                            src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80" 
+                            src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=85" 
                             alt="Nikkah Soft Glam & Matha Patti" 
                             class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                         >
@@ -922,14 +922,14 @@ $parlor = $appConfig['parlor'];
                 <div class="lg:col-span-6 grid grid-cols-2 gap-4">
                     <div class="rounded-2xl overflow-hidden border border-brand-200 shadow-sm h-64">
                         <img 
-                            src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80" 
+                            src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=85" 
                             alt="Bridal Henna Hands" 
                             class="w-full h-full object-cover hover:scale-105 transition duration-300"
                         >
                     </div>
                     <div class="rounded-2xl overflow-hidden border border-brand-200 shadow-sm h-64 mt-6">
                         <img 
-                            src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=600&q=80" 
+                            src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1200&q=85" 
                             alt="Traditional Henna Art" 
                             class="w-full h-full object-cover hover:scale-105 transition duration-300"
                         >
@@ -958,7 +958,7 @@ $parlor = $appConfig['parlor'];
                 <!-- Service Card 1 -->
                 <div class="p-5 rounded-3xl bg-[#faf7f2] border border-brand-200 shadow-2xs space-y-3">
                     <div class="h-44 rounded-2xl overflow-hidden mb-3">
-                        <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=500&q=80" alt="Keratin Smoothing" class="w-full h-full object-cover">
+                        <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1000&q=85" alt="Keratin Smoothing" class="w-full h-full object-cover">
                     </div>
                     <h3 class="font-bold text-sm text-charcoal-900">Brazilian Keratin Smoothing</h3>
                     <p class="text-xs text-charcoal-500">Formaldehyde-free intense silk smoothing lasting 4-6 months.</p>
@@ -968,7 +968,7 @@ $parlor = $appConfig['parlor'];
                 <!-- Service Card 2 -->
                 <div class="p-5 rounded-3xl bg-[#faf7f2] border border-brand-200 shadow-2xs space-y-3">
                     <div class="h-44 rounded-2xl overflow-hidden mb-3">
-                        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=500&q=80" alt="Balayage & Gloss" class="w-full h-full object-cover">
+                        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85" alt="Balayage & Gloss" class="w-full h-full object-cover">
                     </div>
                     <h3 class="font-bold text-sm text-charcoal-900">Balayage & Bespoke Gloss</h3>
                     <p class="text-xs text-charcoal-500">Seamless sun-kissed blending with Olaplex bond reinforcement.</p>
@@ -978,7 +978,7 @@ $parlor = $appConfig['parlor'];
                 <!-- Service Card 3 -->
                 <div class="p-5 rounded-3xl bg-[#faf7f2] border border-brand-200 shadow-2xs space-y-3">
                     <div class="h-44 rounded-2xl overflow-hidden mb-3">
-                        <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=500&q=80" alt="Crown Cut & Blowdry" class="w-full h-full object-cover">
+                        <img src="https://images.unsplash.com/photo-1595475884562-073c30d45670?auto=format&fit=crop&w=1000&q=85" alt="Crown Cut & Blowdry" class="w-full h-full object-cover">
                     </div>
                     <h3 class="font-bold text-sm text-charcoal-900">Crown Cut & Bouncy Blowdry</h3>
                     <p class="text-xs text-charcoal-500">Customized face-framing layer cut with scalp massage & blowout.</p>
@@ -988,7 +988,7 @@ $parlor = $appConfig['parlor'];
                 <!-- Service Card 4 -->
                 <div class="p-5 rounded-3xl bg-[#faf7f2] border border-brand-200 shadow-2xs space-y-3">
                     <div class="h-44 rounded-2xl overflow-hidden mb-3">
-                        <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=500&q=80" alt="Nail Bar & Pedicure" class="w-full h-full object-cover">
+                        <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=1000&q=85" alt="Nail Bar & Pedicure" class="w-full h-full object-cover">
                     </div>
                     <h3 class="font-bold text-sm text-charcoal-900">Deluxe Velvet Manicure & Spa</h3>
                     <p class="text-xs text-charcoal-500">Rose foot soak, Russian cuticle care, and chip-free gel polish.</p>
@@ -1093,7 +1093,7 @@ $parlor = $appConfig['parlor'];
                 
                 <!-- Insta Post 1 -->
                 <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative rounded-2xl overflow-hidden aspect-square border border-brand-400/20 shadow-md block">
-                    <img src="https://images.unsplash.com/photo-1546804784-896d0dca3805?auto=format&fit=crop&w=400&q=80" alt="Royal Barat Bridal" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=85" alt="Royal Barat Bridal" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center p-2 text-center text-white text-xs">
                         <i class="fa-brands fa-instagram text-2xl mb-1 text-pink-400"></i>
                         <span class="font-bold text-[11px]">Royal Barat Bride</span>
@@ -1106,7 +1106,7 @@ $parlor = $appConfig['parlor'];
 
                 <!-- Insta Post 2 -->
                 <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative rounded-2xl overflow-hidden aspect-square border border-brand-400/20 shadow-md block">
-                    <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=400&q=80" alt="Bridal Henna Art" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=85" alt="Bridal Henna Art" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center p-2 text-center text-white text-xs">
                         <i class="fa-brands fa-instagram text-2xl mb-1 text-pink-400"></i>
                         <span class="font-bold text-[11px]">Rajasthani Mehendi</span>
@@ -1116,7 +1116,7 @@ $parlor = $appConfig['parlor'];
 
                 <!-- Insta Post 3 -->
                 <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative rounded-2xl overflow-hidden aspect-square border border-brand-400/20 shadow-md block">
-                    <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=400&q=80" alt="Balayage Transformation" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=85" alt="Balayage Transformation" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center p-2 text-center text-white text-xs">
                         <i class="fa-brands fa-instagram text-2xl mb-1 text-pink-400"></i>
                         <span class="font-bold text-[11px]">Bespoke Balayage</span>
@@ -1129,7 +1129,7 @@ $parlor = $appConfig['parlor'];
 
                 <!-- Insta Post 4 -->
                 <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative rounded-2xl overflow-hidden aspect-square border border-brand-400/20 shadow-md block">
-                    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=400&q=80" alt="24K Gold Facial" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=85" alt="24K Gold Facial" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center p-2 text-center text-white text-xs">
                         <i class="fa-brands fa-instagram text-2xl mb-1 text-pink-400"></i>
                         <span class="font-bold text-[11px]">24K Gold Glow</span>
@@ -1139,7 +1139,7 @@ $parlor = $appConfig['parlor'];
 
                 <!-- Insta Post 5 -->
                 <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative rounded-2xl overflow-hidden aspect-square border border-brand-400/20 shadow-md block">
-                    <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=400&q=80" alt="Nikkah Soft Glam" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=800&q=85" alt="Nikkah Soft Glam" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center p-2 text-center text-white text-xs">
                         <i class="fa-brands fa-instagram text-2xl mb-1 text-pink-400"></i>
                         <span class="font-bold text-[11px]">Nikkah Radiance</span>
@@ -1149,7 +1149,7 @@ $parlor = $appConfig['parlor'];
 
                 <!-- Insta Post 6 -->
                 <a href="https://www.instagram.com/elarabeautestudio/" target="_blank" class="group relative rounded-2xl overflow-hidden aspect-square border border-brand-400/20 shadow-md block">
-                    <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=400&q=80" alt="Gel Nail Architecture" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=85" alt="Gel Nail Architecture" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center p-2 text-center text-white text-xs">
                         <i class="fa-brands fa-instagram text-2xl mb-1 text-pink-400"></i>
                         <span class="font-bold text-[11px]">Velvet Gel Nails</span>
