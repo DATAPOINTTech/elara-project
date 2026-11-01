@@ -2,14 +2,23 @@
 # ELARA BEAUTÉ STUDIO - PUBLIC FOLDER REWRITE CONTROLLER
 # ==============================================================================
 
+DirectoryIndex index.php index.html
+
+<IfModule mod_autoindex.c>
+    IndexIgnore *
+</IfModule>
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    # If physical file or directory exists, serve it directly
-    RewriteCond %{REQUEST_FILENAME} -f [OR]
-    RewriteCond %{REQUEST_FILENAME} -d
+    # Allow direct access to test.php
+    RewriteRule ^test\.php$ test.php [L]
+
+    # If physical file exists, serve it directly
+    RewriteCond %{REQUEST_FILENAME} -f
     RewriteRule ^ - [L]
 
-    # Otherwise forward all routing to Front Controller index.php
+    # Forward all other routing to Front Controller index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L,QSA]
 </IfModule>

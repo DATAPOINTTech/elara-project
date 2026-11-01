@@ -3,24 +3,46 @@
 # Designed, Developed and Hosted By: DATAPOINT Technologies
 # ==============================================================================
 
+# 1. Explicitly declare DirectoryIndex so Apache never attempts directory listing
+DirectoryIndex index.php public/index.php index.html
+
+# 2. Prevent directory listing securely
+<IfModule mod_autoindex.c>
+    IndexIgnore *
+</IfModule>
+
+# 3. Protect sensitive files without blocking normal routes
+<FilesMatch "^(\.env|\.cpanel\.yml|composer\.(json|lock)|serviceAccountKey\.json)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# 4. Universal Rewrite Routing Engine
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    # Protect sensitive credentials and internal files
-    <FilesMatch "(^\.|\.(env|json|lock|sql|log|md|yml|yaml|bak)$|serviceAccountKey\.json)">
-        <IfModule mod_authz_core.c>
-            Require all denied
-        </IfModule>
-        <IfModule !mod_authz_core.c>
-            Order allow,deny
-            Deny from all
-        </IfModule>
-    </FilesMatch>
+    # Allow direct access to test.php
+    RewriteRule ^test\.php$ test.php [L]
 
-    # Forward root URL to public/
-    RewriteRule ^$ public/ [L]
+    # If physical file exists in root, serve directly
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ - [L]
 
-    # Forward all other requests into public/ unless already pointing to public/
-    RewriteCond %{REQUEST_URI} !^/public/
+    # If static asset physically exists in public/, rewrite to public/
+    RewriteCond %{DOCUMENT_ROOT}/public/$1 -f [OR]
+    RewriteCond %{REQUEST_URI} ^/(assets|storage)/
     RewriteRule ^(.*)$ public/$1 [L]
+
+    # Forward root request to index.php
+    RewriteRule ^$ index.php [L]
+
+    # Forward all other requests to Front Controller index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php [L,QSA]
 </IfModule>
