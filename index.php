@@ -10,7 +10,9 @@ ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 
 set_exception_handler(function (\Throwable $e) {
-    http_response_code(500);
+    if (!headers_sent()) {
+        http_response_code(500);
+    }
     ?>
     <!DOCTYPE html>
     <html lang="en">

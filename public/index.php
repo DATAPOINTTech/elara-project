@@ -5,7 +5,9 @@ ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 
 set_exception_handler(function (\Throwable $e) {
-    http_response_code(500);
+    if (!headers_sent()) {
+        http_response_code(500);
+    }
     ?>
     <!DOCTYPE html>
     <html lang="en">
@@ -77,6 +79,26 @@ if (php_sapi_name() === 'cli-server') {
     if (is_file($file)) {
         return false;
     }
+}
+
+// Auto-heal vendor file & directory permissions on Linux/cPanel if needed
+$cssParserTest = dirname(__DIR__) . '/vendor/sabberworm/php-css-parser/src/Rule/Rule.php';
+if (file_exists($cssParserTest) && !is_readable($cssParserTest)) {
+    try {
+        $vendorDir = dirname(__DIR__) . '/vendor';
+        @chmod($vendorDir, 0755);
+        $it = new \RecursiveIteratorIterator(
+            new \RecursiveDirectoryIterator($vendorDir, \RecursiveDirectoryIterator::SKIP_DOTS),
+            \RecursiveIteratorIterator::SELF_FIRST
+        );
+        foreach ($it as $item) {
+            if ($item->isDir()) {
+                @chmod($item->getPathname(), 0755);
+            } else {
+                @chmod($item->getPathname(), 0644);
+            }
+        }
+    } catch (\Throwable $ignored) {}
 }
 
 require_once dirname(__DIR__) . '/vendor/autoload.php';
