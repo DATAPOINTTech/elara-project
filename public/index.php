@@ -1,6 +1,41 @@
-<?php
+﻿<?php
 
 declare(strict_types=1);
+
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+
+set_exception_handler(function (\Throwable $e) {
+    http_response_code(500);
+    ?>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Startup Notice - ELARA BeautÃ© Studio</title>
+        <style>
+            body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #faf7f2; color: #1c1917; padding: 40px 20px; }
+            .box { max-width: 700px; margin: 0 auto; background: #fff; padding: 32px; border-radius: 20px; border: 2px solid #fecaca; box-shadow: 0 10px 25px rgba(0,0,0,0.06); }
+            h1 { color: #dc2626; font-size: 20px; margin-top: 0; }
+            .err { background: #fef2f2; border: 1px solid #fee2e2; padding: 12px 16px; border-radius: 8px; font-family: monospace; font-size: 13px; color: #991b1b; margin: 15px 0; word-break: break-all; }
+            pre { background: #f8fafc; padding: 12px; border-radius: 8px; font-size: 11px; overflow-x: auto; color: #475569; }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <h1>âš ï¸ ELARA Studio Startup Notice</h1>
+            <div class="err">
+                <strong>Exception:</strong> <?= htmlspecialchars($e->getMessage()) ?><br>
+                <strong>Location:</strong> <?= htmlspecialchars($e->getFile()) ?>:<?= $e->getLine() ?>
+            </div>
+            <pre><?= htmlspecialchars($e->getTraceAsString()) ?></pre>
+        </div>
+    </body>
+    </html>
+    <?php
+    exit;
+});
 
 // Early PHP Version Compatibility Check
 if (PHP_VERSION_ID < 80000) {
